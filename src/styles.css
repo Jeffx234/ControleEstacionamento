@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: #121214;
+  display: flex;
+
+}
+
+.coluna {
+  width: 50%;
+  height: 100%;
+  padding: 2rem;
+}
+
+.controle {
+
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+input {
+  display: block;
+  width: 80%;
+  border-radius: 7px;
+  height: 35px;
+  border: 0;
+  outline: 0;
+  margin-top: .3rem;
+  margin-bottom: 1.5rem;
+  margin-right: 3rem;
+}
+
+input::placeholder {
+  padding-left: 1rem;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  margin-top: 1.2rem;
+  width: 80%;
+  height: 35px;
+  transition: filter 0.2s;
+  border-radius: 7px;
+}
+
+button:hover {
+  filter: brightness(0.9);
+}
+
+.tabela {
+  width: 50%;
+  color: #fff;
+  background: #121218;
+}
+
+th {
+  background: #fff;
+  color: black;
+  padding-top: 2rem;
+  font-size: 1.5rem;
+}
+
+#garage tr td {
+  max-height: 10px;
+  border: 1px solid #121225;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
